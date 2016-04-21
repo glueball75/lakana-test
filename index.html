@@ -23,77 +23,42 @@
 <!--    Header    -->
 
 	<header>
-		<div class="wrap">
-			<div class="row">
-				<div class="large-5 column">
-					<a href="#"><img class="logo" src="img/logo-large.png" /></a>
-				</div>
-				
-				<div class="large-7 column">
-					<div class="float-right">
-						<div class="weather">
-							<h1>Minneapolis</h1>
-							<img class="float-left"src="img/cloudy.png" /><p class="degrees"> 24&deg;</p>
-							<p><a href="#">Get Forecast&raquo;</a></p>
-						</div>
-						
-						<div class="weather">
-							<h1>Rochester</h1>
-							<img class="float-left"src="img/cloudy.png" /><p class="degrees"> 21&deg;</p>
-							<p><a href="#">Get Forecast&raquo;</a></p>
-						</div>
-						
-						<div class="weatherR">
-							<h1>Duluth</h1>
-							<img class="float-left"src="img/cloudy.png" /><p class="degrees"> -5&deg;</p>
-							<p><a href="#">Get Forecast&raquo;</a></p>
-						</div>
-						
-						<div class="headerR">
-							<div class="login">
-									<div class="float-left"><img src="img/login.png"/></div>
-								
-								<p><a href="#">Log In</a></p>
-								<p><a href="#">Create Account</a></p>
-							</div>
-							<div class="date">
-								<p>Wednesday,<br />
-								February 3, 2015</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
+		<div data-interchange="[assets/partials/interchange-default.html, small], [assets/partials/interchange-medium.html, medium], [assets/partials/interchange-large.html, large]">
 		</div>
 	</header>
 
 <!--    Main Nav    -->
 	<div class="top-bar">
 		<div class="wrap">
-			<div class="top-bar-left">
-				 <ul class="dropdown menu" data-dropdown-menu>
-					<li><img src="img/home.png"/></li>
-					<li><a href="#">NEWS</a></li>
-					<li><a href="#">VIDEO</a></li>
-					<li><a href="#">WEATHER</a></li>
-					<li><a href="#">PHOTOS</a></li>
-					<li><a href="#">ENTERTAINMENT</a></li>
-					<li><a href="#">SPORTS</a></li>
-					<li><a href="#">AUTOS</a></li>
-					<li><a href="#">APPS</a></li>
-				</ul>
+
+			<div class="top-bar-title">
+				<span data-responsive-toggle="responsive-menu" data-hide-for="large">
+				<button class="menu-icon light" type="button" data-toggle></button>
+				</span>
+				<a href="#"><img src="img/home.png"/></a>
 			</div>
+			<div id="responsive-menu">
+				<div class="top-bar-left">
+					<ul class="dropdown menu" data-dropdown-menu>
+						<li><a href="#">NEWS</a></li>
+						<li><a href="#">VIDEO</a></li>
+						<li><a href="#">WEATHER</a></li>
+						<li><a href="#">PHOTOS</a></li>
+						<li><a href="#">ENTERTAINMENT</a></li>
+						<li><a href="#">SPORTS</a></li>
+						<li><a href="#">AUTOS</a></li>
+						<li><a href="#">APPS</a></li>
+					</ul>
+				</div>
 			<div class="top-bar-right">
 				<ul class="menu">
 					<li><input type="search" placeholder="Search"></li>
-					<li><button type="button" class="button"><img src="img/search.png"/></button></li>
+					<li><button type="button" class="button">Search</button></li>
 				</ul>
 			</div>
+
 		</div>
 	</div>
-
-
-
 
 
 
