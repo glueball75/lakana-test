@@ -24,7 +24,7 @@ p {
 
 /*============================HEADER============================*/
 
-header {
+.header {
 	background: rgb(24,24,22); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgb(54,62,65), rgb(24,24,22)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgb(54,62,65), rgb(24,24,22)); /* For Opera 11.1 to 12.0 */
