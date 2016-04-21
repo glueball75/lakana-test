@@ -169,3 +169,67 @@ header {
 	text-align: middle;
 	line-height: 1.2em;
 }
+
+
+/*============================NAV============================*/
+
+.menu > li > a {
+	display: block;
+	padding: 10px 20px;
+	line-height: 1;
+}
+
+li {
+	font-size: .75em;
+}
+
+li a {
+		color: white;
+}
+
+li a:hover {
+		color: #cacaca;
+}
+
+[type='search'],
+ textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 140px;
+  height: 28px;
+  padding: 0.45rem;
+  margin: 2px 0 0 0;
+  font-size: 1em;
+  color: #0a0a0a;
+  background-color: #fff;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+  -webkit-appearance: none;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 0;
+  padding: 5px;
+  margin: 2px 0 0 -16px;
+  font-size: 0.9rem;
+  background-color: #ff9c00;
+}
+
+
+.button:hover, .button:focus {
+    background-color: #ffb74a;
+}
+
+.top-bar {
+	background-color: #2096c6;
+	padding: 0rem, .5rem;
+}
+
+.top-bar ul {
+	line-height: 0;
+	background-color: #2096c6;
+}
