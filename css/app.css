@@ -1,6 +1,4 @@
-/*
-============================GENERAL============================
-*/
+/*============================GENERAL============================*/
 
 
 
@@ -11,10 +9,7 @@
 }
 
 
-
-/*
-============================ADVERTISEMENT============================
-*/
+/*============================ADVERTISEMENT============================*/
 
 
 .ad-top {
@@ -22,4 +17,101 @@
 	max-height: 110px;
 	background-color: #f2f2f2;
 }
+
+
+
+/*============================HEADER============================*/
+
+header {
+	background: rgb(24,24,22); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(54,62,65), rgb(24,24,22)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(54,62,65), rgb(24,24,22)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(54,62,65), rgb(24,24,22)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(54,62,65), rgb(24,24,22)); /* Standard syntax */
+	padding: 20px 0;
+	max-height: 140px;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+
+.weather {
+float:left;
+	width: 120px;
+	padding: 10px 15px 10px 0;
+	margin-right: 20px;
+	border-right: 1px solid #404145;
+	height: 100px;
+}
+
+.weatherR {
+float:left;
+	width: 120px;
+	padding: 10px 15px 10px 0;
+	margin-right: 20px;
+	height: 100px;
+}
+
+
+.weather h1 {
+	font-family: Georgia, Times, serif;
+	font-size: .85em;
+	color:#868b8f;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.weather a, a:hover {
+	color: #ff9900;
+	font-size: .5em;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.weather p {
+	margin: 0;
+	text-align: center;
+	line-height: .5em;
+	padding-top: 2px
+}
+
+.weatherR h1 {
+	font-family: Georgia, Times, serif;
+	font-size: .85em;
+	color:#868b8f;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.weatherR a, a:hover {
+	color: #ff9900;
+	font-size: .5em;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.weatherR p {
+	margin: 0;
+	text-align: center;
+	line-height: .5em;
+	padding-top: 2px
+}
+
+.degrees {
+	font-size: 2em;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.login {
+	float: right;
+	height: 100px;
+	padding: 10px 0;
+}
+
 
