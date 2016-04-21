@@ -8,7 +8,9 @@
 	max-width: 942;
 }
 
-
+p {
+	font-family: Georgia, Times, serif;
+}
 /*============================ADVERTISEMENT============================*/
 
 
@@ -38,7 +40,7 @@ header {
 
 
 .weather {
-float:left;
+	float:left;
 	width: 120px;
 	padding: 10px 15px 10px 0;
 	margin-right: 20px;
@@ -47,7 +49,7 @@ float:left;
 }
 
 .weatherR {
-float:left;
+	float:left;
 	width: 120px;
 	padding: 10px 15px 10px 0;
 	margin-right: 20px;
@@ -61,21 +63,31 @@ float:left;
 	color:#868b8f;
 	margin-bottom: 5px;
 	text-align: center;
+
 }
 
-.weather a, a:hover {
+.weather a {
 	color: #ff9900;
-	font-size: .5em;
+	font-size: .55em;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
 
+.weather a:hover {
+	color: #ffb74a;
+	font-size: .55em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .weather p {
 	margin: 0;
 	text-align: center;
-	line-height: .5em;
+	line-height: .6em;
 	padding-top: 2px
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .weatherR h1 {
@@ -86,32 +98,74 @@ float:left;
 	text-align: center;
 }
 
-.weatherR a, a:hover {
+.weatherR a {
 	color: #ff9900;
-	font-size: .5em;
+	font-size: .55em;
 	text-transform: uppercase;
 	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
 
+.weatherR a:hover {
+	color: #ffb74a;
+	font-size: .55em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .weatherR p {
 	margin: 0;
 	text-align: center;
-	line-height: .5em;
+	line-height: .6em;
 	padding-top: 2px
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 .degrees {
 	font-size: 2em;
 	color: white;
 	margin: 0;
-	padding: 0;
+	padding: 14px 0;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
-.login {
-	float: right;
+.headerR {
+	float: left;
 	height: 100px;
 	padding: 10px 0;
 }
 
+.login p {	
+	font-size: .65em;
+	line-height: 1.2em;
+	margin-top: 0;
+	padding: 0;
+	margin: 0 0 0 37px;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+}
 
+.login a {
+	font-size: 100%;
+	color: white;
+	font-weight: bold;
+	text-transform: none;
+}
+
+.login a:hover {
+	font-size: 100%;
+	color: #dcdcdc;
+	font-weight: bold;
+	text-transform: none;
+	vertical-align: 
+}
+.date {
+	margin-top: 29px;
+}
+.date p{
+	color: white;
+	font-size: .8em;
+	text-align: middle;
+	line-height: 1.2em;
+}
