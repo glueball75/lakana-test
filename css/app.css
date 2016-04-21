@@ -1,0 +1,32 @@
+/*
+============================GENERAL============================
+*/
+
+
+
+.wrap {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 942;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+/*
+============================ADVERTISEMENT============================
+*/
+
+
+.ad-top {
+	padding: 10px 0;
+	max-height: 110px;
+	background-color: #f2f2f2;
+}
+
